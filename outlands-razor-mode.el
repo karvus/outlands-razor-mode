@@ -128,7 +128,7 @@
 (define-generic-mode
     'razor-mode
   '("#")
-  '("if" "else" "elseif" "endif" "while" "endwhile" "for" "endfor" "not")
+  '("if" "else" "elseif" "endif" "while" "endwhile" "for" "endfor" "not" "and")
   (list '("\\('[^']+'\\)" 1 font-lock-string-face)
         (cons razor-mode-builtins-regexp 'font-lock-builtin-face)
         (cons "\\<\\([A-Z][A-Z0-9_]*\\)\\>" 'font-lock-constant-face))
