@@ -76,7 +76,7 @@
     "organizer"
     "overhead"
     "pause"
-    "potion"
+    "position"
     "promptresponse"
     "poplist"
     "pushlist"
