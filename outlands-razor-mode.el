@@ -1,4 +1,4 @@
-;;; razor-mode.el --- Simple mode for editing Razor scripts for Outlands -*- lexical-binding: t; -*-
+;;; outlands-razor-mode.el --- Simple mode for editing Razor scripts for Outlands -*- lexical-binding: t; -*-
 ;;
 ;; Copyright (C) 2022 Thomas Stenhaug
 ;;
@@ -6,7 +6,7 @@
 ;; Maintainer: Thomas Stenhaug <thomas.stenhaug@gmail.com>
 ;; Created: November 07, 2022
 ;; Modified: November 07, 2022
-;; Version: 0.0.1
+;; Version: 0.0.2
 ;; Keywords: faces files languages
 ;; Homepage: https://github.com/tstenhaug/razor-mode
 ;; Package-Requires: ((emacs "24.3"))
@@ -136,5 +136,5 @@
   '(highlight-numbers-mode)
   "A mode for editing ClassicUO Razor files, particularly the Outlands variant.")
 
-(provide 'razor-mode)
-;;; razor-mode.el ends here
+(provide 'outlands-razor-mode)
+;;; outlands-razor-mode.el ends here
