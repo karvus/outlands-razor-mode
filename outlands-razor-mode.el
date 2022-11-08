@@ -8,7 +8,7 @@
 ;; Modified: November 07, 2022
 ;; Version: 0.0.2
 ;; Keywords: faces files languages
-;; Homepage: https://github.com/tstenhaug/razor-mode
+;; Homepage: https://github.com/tstenhaug/outlands-razor-mode
 ;; Package-Requires: ((emacs "24.3"))
 ;;
 ;; This file is not part of GNU Emacs.
