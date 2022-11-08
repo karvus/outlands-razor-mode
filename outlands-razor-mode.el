@@ -63,6 +63,7 @@
     "interrupt"
     "invul"
     "lasttarget"
+    "lift"
     "lifttype"
     "list"
     "listexists"
@@ -87,6 +88,7 @@
     "restock"
     "say"
     "scavenger"
+    "script"
     "sell"
     "setability"
     "setskill"
@@ -127,8 +129,8 @@
 
 (define-generic-mode
     'razor-mode
-  '("#")
-  '("if" "else" "elseif" "endif" "while" "endwhile" "for" "endfor" "not" "and")
+  '("#" "//")
+  '("if" "else" "elseif" "endif" "while" "endwhile" "for" "foreach" "endfor" "not" "and")
   (list '("\\('[^']+'\\)" 1 font-lock-string-face)
         (cons razor-mode-builtins-regexp 'font-lock-builtin-face)
         (cons "\\<\\([A-Z][A-Z0-9_]*\\)\\>" 'font-lock-constant-face))
