@@ -127,6 +127,7 @@
   (regexp-opt razor-mode-builtins 'words)
   "Regular expression used to highlight builtin words.")
 
+;;;###autoload
 (define-generic-mode
     'razor-mode
   '("#" "//")
